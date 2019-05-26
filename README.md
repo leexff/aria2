@@ -3,6 +3,7 @@
 ##
 主要的安装步骤如下：
 第一步
+
 <wget -N --no-check-certificate https://raw.githubusercontent.com/leexff/aria2/master/aria2.sh && chmod +x aria2.sh && bash aria2.sh>
 
 1、安装aria2.sh
