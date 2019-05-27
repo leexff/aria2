@@ -10,6 +10,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/leexff/aria2/ma
 注意安装完成后，需要打开对应的端口：
 
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 6800 -j ACCEPT
+
 iptables -I INPUT -m state --state NEW -m udp -p udp --dport 51413 -j ACCEPT
 
 然后重启aria2
